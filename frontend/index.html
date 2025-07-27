@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hackathon Voting App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background-color: #f3f3f3;
+    }
+    h1 {
+      color: #333;
+    }
+    .option {
+      margin: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    #results {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🗳️ DEVMatch Voting App</h1>
+  <p>Vote for your favorite idea!</p>
+
+  <div class="option">
+    <button onclick="vote('Option A')">Vote for A</button>
+    <span id="a-count">0</span> votes
+  </div>
+
+  <div class="option">
+    <button onclick="vote('Option B')">Vote for B</button>
+    <span id="b-count">0</span> vot
 
