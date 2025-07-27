@@ -7,12 +7,7 @@ Team Members:
 - Hong Tze Loon
 
 Tech Stack:
-- Blockchain: Oasis Sapphire + Sui
-- Frontend: React / HTML + Ethers.js
-- Smart Contracts: Solidity (for Oasis) / Move (for Sui)
-- Optional AI: ChatAndBuild
+
 
 Structure:
-- frontend/ → UI
-- contracts/ → Blockchain code
-- ai-agent/ → AI logic
+
